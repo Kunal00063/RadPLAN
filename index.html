@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadPlan</title>
+    <link rel="icon" type="image/png" href="./Assets/ICON FINAL.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"> <a href="#"><img src="./Assets/LOGO FINAL.png" height="50px">
+            </a><span></span> </div>
+        <div class="nav-links">
+            <a href="#Services">Services</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#Benefits">Benefits</a>
+            <a href="#Contact">Contact</a>
+            <a style="color: white;" href="#Contact" class="btn-primary">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-left">
+            <div class="badge">Trusted by Healthcare Facilities Worldwide</div>
+
+            <h1>
+                Expert Radiotherapy <br>
+                Treatment Planning, <br>
+                <span>Delivered Remotely</span>
+            </h1>
+
+            <p>
+                Access world-class dosimetrists and medical physicists for comprehensive
+                treatment planning support—without geographic limitations.
+            </p>
+
+            <ul class="features">
+                <li>Board-certified specialists available 24/7</li>
+                <li>HIPAA compliant and secure data transfer</li>
+                <li>Fast turnaround times without compromising quality</li>
+            </ul>
+
+            <div class="hero-buttons">
+                <a href="#Contact" class="btn-primary">Request a Consultation →</a>
+                <a href="#how-it-works" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <img src="https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&w=1200&q=80"
+                alt="Radiotherapy Machine">
+
+            <div class="stat-box stat-top">
+                <h2>10,000+</h2>
+                <p>Plans Completed</p>
+            </div>
+
+            <div class="stat-box stat-bottom">
+                <h2>99.8%</h2>
+                <p>Accuracy Rate</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= SERVICES SECTION ================= -->
+    <section id="Services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">
+                Comprehensive radiotherapy treatment planning services tailored to your facility's needs
+            </p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-crosshair" viewBox="0 0 16 16">
+                            <path
+                                d="M8.5.5a.5.5 0 0 0-1 0v.518A7 7 0 0 0 1.018 7.5H.5a.5.5 0 0 0 0 1h.518A7 7 0 0 0 7.5 14.982v.518a.5.5 0 0 0 1 0v-.518A7 7 0 0 0 14.982 8.5h.518a.5.5 0 0 0 0-1h-.518A7 7 0 0 0 8.5 1.018zm-6.48 7A6 6 0 0 1 7.5 2.02v.48a.5.5 0 0 0 1 0v-.48a6 6 0 0 1 5.48 5.48h-.48a.5.5 0 0 0 0 1h.48a6 6 0 0 1-5.48 5.48v-.48a.5.5 0 0 0-1 0v.48A6 6 0 0 1 2.02 8.5h.48a.5.5 0 0 0 0-1zM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                        </svg></div>
+                    <h3>IMRT/VMAT Planning</h3>
+                    <p>Advanced intensity-modulated and volumetric arc therapy planning for complex cases with optimal
+                        dose
+                        distribution.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-lungs" viewBox="0 0 16 16">
+                            <path
+                                d="M8.5 1.5a.5.5 0 1 0-1 0v5.243L7 7.1V4.72C7 3.77 6.23 3 5.28 3c-.524 0-1.023.27-1.443.592-.431.332-.847.773-1.216 1.229-.736.908-1.347 1.946-1.58 2.48-.176.405-.393 1.16-.556 2.011-.165.857-.283 1.857-.241 2.759.04.867.233 1.79.838 2.33.67.6 1.622.556 2.741-.004l1.795-.897A2.5 2.5 0 0 0 7 11.264V10.5a.5.5 0 0 0-1 0v.764a1.5 1.5 0 0 1-.83 1.342l-1.794.897c-.978.489-1.415.343-1.628.152-.28-.25-.467-.801-.505-1.63-.037-.795.068-1.71.224-2.525.157-.82.357-1.491.491-1.8.19-.438.75-1.4 1.44-2.25.342-.422.703-.799 1.049-1.065.358-.276.639-.385.833-.385a.72.72 0 0 1 .72.72v3.094l-1.79 1.28a.5.5 0 0 0 .58.813L8 7.614l3.21 2.293a.5.5 0 1 0 .58-.814L10 7.814V4.72a.72.72 0 0 1 .72-.72c.194 0 .475.11.833.385.346.266.706.643 1.05 1.066.688.85 1.248 1.811 1.439 2.249.134.309.334.98.491 1.8.156.814.26 1.73.224 2.525-.038.829-.224 1.38-.505 1.63-.213.19-.65.337-1.628-.152l-1.795-.897A1.5 1.5 0 0 1 10 11.264V10.5a.5.5 0 0 0-1 0v.764a2.5 2.5 0 0 0 1.382 2.236l1.795.897c1.12.56 2.07.603 2.741.004.605-.54.798-1.463.838-2.33.042-.902-.076-1.902-.24-2.759-.164-.852-.38-1.606-.558-2.012-.232-.533-.843-1.571-1.579-2.479-.37-.456-.785-.897-1.216-1.229C11.743 3.27 11.244 3 10.72 3 9.77 3 9 3.77 9 4.72V7.1l-.5-.357z" />
+                        </svg></div>
+                    <h3>SRS/SBRT Planning</h3>
+                    <p>Stereotactic radiosurgery and body radiotherapy planning with sub-millimeter precision for
+                        critical
+                        targets.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-sun" viewBox="0 0 16 16">
+                            <path
+                                d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
+                        </svg></div>
+                    <h3>3D Conformal Planning</h3>
+                    <p>Traditional 3D treatment planning for straightforward cases with proven techniques and reliable
+                        outcomes.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-radioactive" viewBox="0 0 16 16">
+                            <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8" />
+                            <path
+                                d="M9.653 5.496A3 3 0 0 0 8 5c-.61 0-1.179.183-1.653.496L4.694 2.992A5.97 5.97 0 0 1 8 2c1.222 0 2.358.365 3.306.992zm1.342 2.324a3 3 0 0 1-.884 2.312 3 3 0 0 1-.769.552l1.342 2.683c.57-.286 1.09-.66 1.538-1.103a6 6 0 0 0 1.767-4.624zm-5.679 5.548 1.342-2.684A3 3 0 0 1 5.005 7.82l-2.994-.18a6 6 0 0 0 3.306 5.728ZM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
+                        </svg></div>
+                    <h3>Brachytherapy Planning</h3>
+                    <p>High-dose-rate and low-dose-rate brachytherapy planning for gynecological, prostate, and other
+                        cancers.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.8 11.8 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7 7 0 0 0 1.048-.625 11.8 11.8 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.54 1.54 0 0 0-1.044-1.263 63 63 0 0 0-2.887-.87C9.843.266 8.69 0 8 0m2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793z" />
+                        </svg></div>
+                    <h3>QA & Plan Review</h3>
+                    <p>Independent plan verification, dosimetric analysis, and quality assurance to ensure patient
+                        safety.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-stopwatch" viewBox="0 0 16 16">
+                            <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5z" />
+                            <path
+                                d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64l.012-.013.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5M8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3" />
+                        </svg></div>
+                    <h3>Emergency Planning</h3>
+                    <p>24/7 urgent treatment planning support for time-sensitive cases requiring immediate attention.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <p class="section-subtitle">
+                A streamlined process designed for efficiency and quality
+            </p>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-circle"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-upload" viewBox="0 0 16 16">
+                            <path
+                                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+                            <path
+                                d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z" />
+                        </svg></div>
+                    <h3>Submit Your Case</h3>
+                    <p>Securely upload patient data, imaging studies (CT/MRI), and treatment requirements through our
+                        HIPAA-compliant portal.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-circle"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                            <path fill-rule="evenodd"
+                                d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5" />
+                        </svg></div>
+                    <h3>Expert Assignment</h3>
+                    <p>A qualified dosimetrist or medical physicist is assigned to your case based on complexity and
+                        treatment modality.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-circle"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-file-earmark-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.854 7.854a.5.5 0 0 0-.708-.708L7.5 9.793 6.354 8.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z" />
+                            <path
+                                d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
+                        </svg></div>
+                    <h3>Treatment Planning</h3>
+                    <p>Our specialists create an optimized treatment plan with full contouring, dose calculations, and
+                        documentation.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-circle"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                            <path
+                                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+                            <path
+                                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
+                        </svg></div>
+                    <h3>Review & Delivery</h3>
+                    <p>Receive the completed plan for physician review with comprehensive QA reports and full DICOM
+                        export
+                        capability.</p>
+                </div>
+            </div>
+
+            <!-- Turnaround Times -->
+            <div class="turnaround">
+                <h3>Typical Turnaround Times</h3>
+
+                <div class="turnaround-grid">
+                    <div>
+                        <h4>24–48h</h4>
+                        <p>Standard Cases</p>
+                    </div>
+                    <div>
+                        <h4>48–72h</h4>
+                        <p>Complex Cases</p>
+                    </div>
+                    <div>
+                        <h4>2–4h</h4>
+                        <p>Emergency Rush</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE SECTION -->
+    <section id="Benefits" class="why-choose">
+        <div class="container why-grid">
+            <div class="why-image">
+                <img src="./Assets/city.jpg" alt="City View" height="550px" width="auto">
+            </div>
+
+            <div class="why-content">
+                <h2>Why Choose RadPlan?</h2>
+                <p class="subtitle">
+                    We understand the challenges of modern radiation oncology departments.
+                    Our remote services provide the flexibility, expertise, and reliability
+                    you need to deliver exceptional patient care.
+                </p>
+
+                <div class="features">
+                    <div class="feature">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0" />
+                                <path
+                                    d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195z" />
+                                <path
+                                    d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083q.088-.517.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1z" />
+                                <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 6 6 0 0 1 3.13-1.567" />
+                            </svg></div>
+                        <div>
+                            <h4>Reduce Costs</h4>
+                            <p>Eliminate the need for full-time staffing during off-hours or for specialized cases.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            </svg></div>
+                        <div>
+                            <h4>Expert Team Access</h4>
+                            <p>Leverage specialized expertise without the overhead of maintaining a large in-house team.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                            </svg></div>
+                        <div>
+                            <h4>Maintain Quality</h4>
+                            <p>Ensure consistent, high-quality treatment plans with peer-reviewed protocols.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+                            </svg></div>
+                        <div>
+                            <h4>24/7 Availability</h4>
+                            <p>Get support whenever you need it, including weekends and holidays.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-stopwatch-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M6.5 0a.5.5 0 0 0 0 1H7v1.07A7.001 7.001 0 0 0 8 16a7 7 0 0 0 5.29-11.584l.013-.012.354-.354.353.354a.5.5 0 1 0 .707-.707l-1.414-1.415a.5.5 0 1 0-.707.707l.354.354-.354.354-.012.012A6.97 6.97 0 0 0 9 2.071V1h.5a.5.5 0 0 0 0-1zm2 5.6V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 1 1 1 0" />
+                            </svg></div>
+                        <div>
+                            <h4>Faster Workflows</h4>
+                            <p>Reduce bottlenecks and improve patient throughput with our rapid turnaround.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M8 0a4 4 0 0 1 4 4v2.05a2.5 2.5 0 0 1 2 2.45v5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5v-5a2.5 2.5 0 0 1 2-2.45V4a4 4 0 0 1 4-4m0 1a3 3 0 0 0-3 3v2h6V4a3 3 0 0 0-3-3" />
+                            </svg></div>
+                        <div>
+                            <h4>Secure & Compliant</h4>
+                            <p>Full HIPAA compliance with encrypted data transmission and storage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- GET STARTED SECTION -->
+    <section id="Contact" class="get-started">
+        <div class="container">
+            <h2 style="color: black;">Get Started Today</h2>
+            <p class="subtitle">
+                Ready to enhance your radiotherapy services? Contact us for a consultation
+                or to learn more about our offerings.
+            </p>
+
+            <div class="contact-grid">
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3 style="color: black;">Send Us a Message</h3>
+                    <p>Fill out the form below and we'll get back to you within 24 hours</p>
+
+                    <form>
+                        <div class="form-row">
+                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Facility Name">
+                        <textarea placeholder="Tell us about your needs..."></textarea>
+
+                        <button type="submit">Submit Request</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3 style="color: black;">Contact Information</h3>
+
+                    <p><strong>Email:</strong><br>info@radplan.com</p>
+                    <p><strong>Phone:</strong><br>+91 (800) 555-1234</p>
+                    <p><strong>Address:</strong><br>
+                        123 Medical Plaza Drive<br>
+                        Suite 500<br>
+                        Boston, MA 02115
+                    </p>
+
+                    <div class="emergency-box">
+                        <h4>Emergency Support</h4>
+                        <p>For urgent cases requiring immediate attention:</p>
+                        <button>Call Emergency Line</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>RadPlan</h3>
+                <p>
+                    Delivering world-class radiotherapy treatment planning services remotely,
+                    helping healthcare facilities provide the best patient care.
+                </p>
+                <p class="copyright">
+                    © 2026 RadPlan. All rights reserved.
+                </p>
+            </div>
+
+            <div>
+                <h4>Services</h4>
+                <ul>
+                    <a href="#Services" style="text-decoration: none; color: #CBD5E1 ">
+                        <li>IMRT/VMAT Planning</li>
+                    </a>
+                    <a href="#Services" style="text-decoration: none; color:#CBD5E1">
+                        <li>SRS/SBRT Planning</li>
+                    </a>
+                    <a href="#Services" style="text-decoration: none; color:#CBD5E1">
+                        <li>Brachytherapy</li>
+                    </a>
+                    <a href="#Services" style="text-decoration: none; color:#CBD5E1">
+                        <li>QA & Review</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Company</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Our Team</li>
+                    <li>Careers</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            HIPAA Compliant | Accredited by ACR | ISO 9001:2015 Certified
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
