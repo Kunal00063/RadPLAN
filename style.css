@@ -237,7 +237,7 @@ h3, h4 {
 }
 
 .hero-left {
-    max-width: 600px;
+    max-width: 650px;
 }
 
 .badge {
@@ -1298,4 +1298,5 @@ button:hover {
         background: transparent;
     }
 }
+
 
